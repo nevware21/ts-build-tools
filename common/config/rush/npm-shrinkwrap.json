@@ -22,6 +22,7 @@
         "@types/istanbul-lib-report": "^3.0.0",
         "@types/istanbul-reports": "^3.0.2",
         "@types/mocha": "^10.0.1",
+        "@types/node": "~24.2.1",
         "codecov": "^3.8.3",
         "copyfiles": "^2.4.1",
         "cross-env": "^7.0.3",
@@ -1032,10 +1033,9 @@
       "integrity": "sha512-xPyYSz1cMPnJQhl0CLMH68j3gprKZaTjG3s5Vi+fDgx+uhG9NOXwbVt52eFS8ECyXhyKcjDLCBEqBExKuiZb7Q=="
     },
     "node_modules/@types/node": {
-      "version": "24.3.0",
-      "resolved": "https://registry.npmjs.org/@types/node/-/node-24.3.0.tgz",
-      "integrity": "sha512-aPTXCrfwnDLj4VvXrm+UUCQjNEvJgNA8s5F1cvwQU+3KNltTOkBm1j30uNLyqqPNe7gE3KFzImYoZEfLhp4Yow==",
-      "peer": true,
+      "version": "24.2.1",
+      "resolved": "https://registry.npmjs.org/@types/node/-/node-24.2.1.tgz",
+      "integrity": "sha512-DRh5K+ka5eJic8CjH7td8QpYEV6Zo10gfRkjHCO3weqZHWDtAaSTFtl4+VMqOJ4N5jcuhZ9/l+yy8rVgw7BQeQ==",
       "dependencies": {
         "undici-types": "~7.10.0"
       }
@@ -4195,8 +4195,7 @@
     "node_modules/undici-types": {
       "version": "7.10.0",
       "resolved": "https://registry.npmjs.org/undici-types/-/undici-types-7.10.0.tgz",
-      "integrity": "sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag==",
-      "peer": true
+      "integrity": "sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag=="
     },
     "node_modules/unist-util-is": {
       "version": "6.0.0",
@@ -5244,10 +5243,9 @@
       "integrity": "sha512-xPyYSz1cMPnJQhl0CLMH68j3gprKZaTjG3s5Vi+fDgx+uhG9NOXwbVt52eFS8ECyXhyKcjDLCBEqBExKuiZb7Q=="
     },
     "@types/node": {
-      "version": "24.3.0",
-      "resolved": "https://registry.npmjs.org/@types/node/-/node-24.3.0.tgz",
-      "integrity": "sha512-aPTXCrfwnDLj4VvXrm+UUCQjNEvJgNA8s5F1cvwQU+3KNltTOkBm1j30uNLyqqPNe7gE3KFzImYoZEfLhp4Yow==",
-      "peer": true,
+      "version": "24.2.1",
+      "resolved": "https://registry.npmjs.org/@types/node/-/node-24.2.1.tgz",
+      "integrity": "sha512-DRh5K+ka5eJic8CjH7td8QpYEV6Zo10gfRkjHCO3weqZHWDtAaSTFtl4+VMqOJ4N5jcuhZ9/l+yy8rVgw7BQeQ==",
       "requires": {
         "undici-types": "~7.10.0"
       }
@@ -7509,8 +7507,7 @@
     "undici-types": {
       "version": "7.10.0",
       "resolved": "https://registry.npmjs.org/undici-types/-/undici-types-7.10.0.tgz",
-      "integrity": "sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag==",
-      "peer": true
+      "integrity": "sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag=="
     },
     "unist-util-is": {
       "version": "6.0.0",
