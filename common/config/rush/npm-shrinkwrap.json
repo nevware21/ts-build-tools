@@ -22,7 +22,7 @@
         "@types/istanbul-lib-report": "^3.0.0",
         "@types/istanbul-reports": "^3.0.2",
         "@types/mocha": "^10.0.1",
-        "@types/node": "~24.2.1",
+        "@types/node": "~24.1.0",
         "codecov": "^3.8.3",
         "copyfiles": "^2.4.1",
         "cross-env": "^7.0.3",
@@ -437,186 +437,6 @@
         }
       }
     },
-    "node_modules/@rollup/rollup-android-arm-eabi": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-android-arm-eabi/-/rollup-android-arm-eabi-4.47.1.tgz",
-      "integrity": "sha512-lTahKRJip0knffA/GTNFJMrToD+CM+JJ+Qt5kjzBK/sFQ0EWqfKW3AYQSlZXN98tX0lx66083U9JYIMioMMK7g==",
-      "cpu": [
-        "arm"
-      ],
-      "optional": true,
-      "os": [
-        "android"
-      ]
-    },
-    "node_modules/@rollup/rollup-android-arm64": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.47.1.tgz",
-      "integrity": "sha512-uqxkb3RJLzlBbh/bbNQ4r7YpSZnjgMgyoEOY7Fy6GCbelkDSAzeiogxMG9TfLsBbqmGsdDObo3mzGqa8hps4MA==",
-      "cpu": [
-        "arm64"
-      ],
-      "optional": true,
-      "os": [
-        "android"
-      ]
-    },
-    "node_modules/@rollup/rollup-darwin-arm64": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.47.1.tgz",
-      "integrity": "sha512-tV6reObmxBDS4DDyLzTDIpymthNlxrLBGAoQx6m2a7eifSNEZdkXQl1PE4ZjCkEDPVgNXSzND/k9AQ3mC4IOEQ==",
-      "cpu": [
-        "arm64"
-      ],
-      "optional": true,
-      "os": [
-        "darwin"
-      ]
-    },
-    "node_modules/@rollup/rollup-darwin-x64": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-darwin-x64/-/rollup-darwin-x64-4.47.1.tgz",
-      "integrity": "sha512-XuJRPTnMk1lwsSnS3vYyVMu4x/+WIw1MMSiqj5C4j3QOWsMzbJEK90zG+SWV1h0B1ABGCQ0UZUjti+TQK35uHQ==",
-      "cpu": [
-        "x64"
-      ],
-      "optional": true,
-      "os": [
-        "darwin"
-      ]
-    },
-    "node_modules/@rollup/rollup-freebsd-arm64": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.47.1.tgz",
-      "integrity": "sha512-79BAm8Ag/tmJ5asCqgOXsb3WY28Rdd5Lxj8ONiQzWzy9LvWORd5qVuOnjlqiWWZJw+dWewEktZb5yiM1DLLaHw==",
-      "cpu": [
-        "arm64"
-      ],
-      "optional": true,
-      "os": [
-        "freebsd"
-      ]
-    },
-    "node_modules/@rollup/rollup-freebsd-x64": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-freebsd-x64/-/rollup-freebsd-x64-4.47.1.tgz",
-      "integrity": "sha512-OQ2/ZDGzdOOlyfqBiip0ZX/jVFekzYrGtUsqAfLDbWy0jh1PUU18+jYp8UMpqhly5ltEqotc2miLngf9FPSWIA==",
-      "cpu": [
-        "x64"
-      ],
-      "optional": true,
-      "os": [
-        "freebsd"
-      ]
-    },
-    "node_modules/@rollup/rollup-linux-arm-gnueabihf": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm-gnueabihf/-/rollup-linux-arm-gnueabihf-4.47.1.tgz",
-      "integrity": "sha512-HZZBXJL1udxlCVvoVadstgiU26seKkHbbAMLg7680gAcMnRNP9SAwTMVet02ANA94kXEI2VhBnXs4e5nf7KG2A==",
-      "cpu": [
-        "arm"
-      ],
-      "optional": true,
-      "os": [
-        "linux"
-      ]
-    },
-    "node_modules/@rollup/rollup-linux-arm-musleabihf": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm-musleabihf/-/rollup-linux-arm-musleabihf-4.47.1.tgz",
-      "integrity": "sha512-sZ5p2I9UA7T950JmuZ3pgdKA6+RTBr+0FpK427ExW0t7n+QwYOcmDTK/aRlzoBrWyTpJNlS3kacgSlSTUg6P/Q==",
-      "cpu": [
-        "arm"
-      ],
-      "optional": true,
-      "os": [
-        "linux"
-      ]
-    },
-    "node_modules/@rollup/rollup-linux-arm64-gnu": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm64-gnu/-/rollup-linux-arm64-gnu-4.47.1.tgz",
-      "integrity": "sha512-3hBFoqPyU89Dyf1mQRXCdpc6qC6At3LV6jbbIOZd72jcx7xNk3aAp+EjzAtN6sDlmHFzsDJN5yeUySvorWeRXA==",
-      "cpu": [
-        "arm64"
-      ],
-      "optional": true,
-      "os": [
-        "linux"
-      ]
-    },
-    "node_modules/@rollup/rollup-linux-arm64-musl": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.47.1.tgz",
-      "integrity": "sha512-49J4FnMHfGodJWPw73Ve+/hsPjZgcXQGkmqBGZFvltzBKRS+cvMiWNLadOMXKGnYRhs1ToTGM0sItKISoSGUNA==",
-      "cpu": [
-        "arm64"
-      ],
-      "optional": true,
-      "os": [
-        "linux"
-      ]
-    },
-    "node_modules/@rollup/rollup-linux-loongarch64-gnu": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-loongarch64-gnu/-/rollup-linux-loongarch64-gnu-4.47.1.tgz",
-      "integrity": "sha512-4yYU8p7AneEpQkRX03pbpLmE21z5JNys16F1BZBZg5fP9rIlb0TkeQjn5du5w4agConCCEoYIG57sNxjryHEGg==",
-      "cpu": [
-        "loong64"
-      ],
-      "optional": true,
-      "os": [
-        "linux"
-      ]
-    },
-    "node_modules/@rollup/rollup-linux-ppc64-gnu": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-ppc64-gnu/-/rollup-linux-ppc64-gnu-4.47.1.tgz",
-      "integrity": "sha512-fAiq+J28l2YMWgC39jz/zPi2jqc0y3GSRo1yyxlBHt6UN0yYgnegHSRPa3pnHS5amT/efXQrm0ug5+aNEu9UuQ==",
-      "cpu": [
-        "ppc64"
-      ],
-      "optional": true,
-      "os": [
-        "linux"
-      ]
-    },
-    "node_modules/@rollup/rollup-linux-riscv64-gnu": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-riscv64-gnu/-/rollup-linux-riscv64-gnu-4.47.1.tgz",
-      "integrity": "sha512-daoT0PMENNdjVYYU9xec30Y2prb1AbEIbb64sqkcQcSaR0zYuKkoPuhIztfxuqN82KYCKKrj+tQe4Gi7OSm1ow==",
-      "cpu": [
-        "riscv64"
-      ],
-      "optional": true,
-      "os": [
-        "linux"
-      ]
-    },
-    "node_modules/@rollup/rollup-linux-riscv64-musl": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-riscv64-musl/-/rollup-linux-riscv64-musl-4.47.1.tgz",
-      "integrity": "sha512-JNyXaAhWtdzfXu5pUcHAuNwGQKevR+6z/poYQKVW+pLaYOj9G1meYc57/1Xv2u4uTxfu9qEWmNTjv/H/EpAisw==",
-      "cpu": [
-        "riscv64"
-      ],
-      "optional": true,
-      "os": [
-        "linux"
-      ]
-    },
-    "node_modules/@rollup/rollup-linux-s390x-gnu": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-s390x-gnu/-/rollup-linux-s390x-gnu-4.47.1.tgz",
-      "integrity": "sha512-U/CHbqKSwEQyZXjCpY43/GLYcTVKEXeRHw0rMBJP7fP3x6WpYG4LTJWR3ic6TeYKX6ZK7mrhltP4ppolyVhLVQ==",
-      "cpu": [
-        "s390x"
-      ],
-      "optional": true,
-      "os": [
-        "linux"
-      ]
-    },
     "node_modules/@rollup/rollup-linux-x64-gnu": {
       "version": "4.47.1",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.47.1.tgz",
@@ -639,42 +459,6 @@
       "optional": true,
       "os": [
         "linux"
-      ]
-    },
-    "node_modules/@rollup/rollup-win32-arm64-msvc": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-win32-arm64-msvc/-/rollup-win32-arm64-msvc-4.47.1.tgz",
-      "integrity": "sha512-N9X5WqGYzZnjGAFsKSfYFtAShYjwOmFJoWbLg3dYixZOZqU7hdMq+/xyS14zKLhFhZDhP9VfkzQnsdk0ZDS9IA==",
-      "cpu": [
-        "arm64"
-      ],
-      "optional": true,
-      "os": [
-        "win32"
-      ]
-    },
-    "node_modules/@rollup/rollup-win32-ia32-msvc": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-win32-ia32-msvc/-/rollup-win32-ia32-msvc-4.47.1.tgz",
-      "integrity": "sha512-O+KcfeCORZADEY8oQJk4HK8wtEOCRE4MdOkb8qGZQNun3jzmj2nmhV/B/ZaaZOkPmJyvm/gW9n0gsB4eRa1eiQ==",
-      "cpu": [
-        "ia32"
-      ],
-      "optional": true,
-      "os": [
-        "win32"
-      ]
-    },
-    "node_modules/@rollup/rollup-win32-x64-msvc": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.47.1.tgz",
-      "integrity": "sha512-CpKnYa8eHthJa3c+C38v/E+/KZyF1Jdh2Cz3DyKZqEWYgrM1IHFArXNWvBLPQCKUEsAqqKX27tTqVEFbDNUcOA==",
-      "cpu": [
-        "x64"
-      ],
-      "optional": true,
-      "os": [
-        "win32"
       ]
     },
     "node_modules/@rush-temp/coverage-tools": {
@@ -1033,11 +817,11 @@
       "integrity": "sha512-xPyYSz1cMPnJQhl0CLMH68j3gprKZaTjG3s5Vi+fDgx+uhG9NOXwbVt52eFS8ECyXhyKcjDLCBEqBExKuiZb7Q=="
     },
     "node_modules/@types/node": {
-      "version": "24.2.1",
-      "resolved": "https://registry.npmjs.org/@types/node/-/node-24.2.1.tgz",
-      "integrity": "sha512-DRh5K+ka5eJic8CjH7td8QpYEV6Zo10gfRkjHCO3weqZHWDtAaSTFtl4+VMqOJ4N5jcuhZ9/l+yy8rVgw7BQeQ==",
+      "version": "24.1.0",
+      "resolved": "https://registry.npmjs.org/@types/node/-/node-24.1.0.tgz",
+      "integrity": "sha512-ut5FthK5moxFKH2T1CUOC6ctR67rQRvvHdFLCD2Ql6KXmMuCrjsSsRI9UsLCm9M18BMwClv4pn327UvB7eeO1w==",
       "dependencies": {
-        "undici-types": "~7.10.0"
+        "undici-types": "~7.8.0"
       }
     },
     "node_modules/@types/resolve": {
@@ -1838,19 +1622,6 @@
       "version": "1.0.0",
       "resolved": "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz",
       "integrity": "sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw=="
-    },
-    "node_modules/fsevents": {
-      "version": "2.3.3",
-      "resolved": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz",
-      "integrity": "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==",
-      "hasInstallScript": true,
-      "optional": true,
-      "os": [
-        "darwin"
-      ],
-      "engines": {
-        "node": "^8.16.0 || ^10.6.0 || >=11.0.0"
-      }
     },
     "node_modules/function-bind": {
       "version": "1.1.2",
@@ -4193,9 +3964,9 @@
       "integrity": "sha512-Oo+0REFV59/rz3gfJNKQiBlwfHaSESl1pcGyABQsnnIfWOFt6JNj5gCog2U6MLZ//IGYD+nA8nI+mTShREReaA=="
     },
     "node_modules/undici-types": {
-      "version": "7.10.0",
-      "resolved": "https://registry.npmjs.org/undici-types/-/undici-types-7.10.0.tgz",
-      "integrity": "sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag=="
+      "version": "7.8.0",
+      "resolved": "https://registry.npmjs.org/undici-types/-/undici-types-7.8.0.tgz",
+      "integrity": "sha512-9UJ2xGDvQ43tYyVMpuHlsgApydB8ZKfVYTsLDhXkFL/6gfkp+U8xTGdh8pMJv1SpZna0zxG1DwsKZsreLbXBxw=="
     },
     "node_modules/unist-util-is": {
       "version": "6.0.0",
@@ -4809,96 +4580,6 @@
         "picomatch": "^4.0.2"
       }
     },
-    "@rollup/rollup-android-arm-eabi": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-android-arm-eabi/-/rollup-android-arm-eabi-4.47.1.tgz",
-      "integrity": "sha512-lTahKRJip0knffA/GTNFJMrToD+CM+JJ+Qt5kjzBK/sFQ0EWqfKW3AYQSlZXN98tX0lx66083U9JYIMioMMK7g==",
-      "optional": true
-    },
-    "@rollup/rollup-android-arm64": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-android-arm64/-/rollup-android-arm64-4.47.1.tgz",
-      "integrity": "sha512-uqxkb3RJLzlBbh/bbNQ4r7YpSZnjgMgyoEOY7Fy6GCbelkDSAzeiogxMG9TfLsBbqmGsdDObo3mzGqa8hps4MA==",
-      "optional": true
-    },
-    "@rollup/rollup-darwin-arm64": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.47.1.tgz",
-      "integrity": "sha512-tV6reObmxBDS4DDyLzTDIpymthNlxrLBGAoQx6m2a7eifSNEZdkXQl1PE4ZjCkEDPVgNXSzND/k9AQ3mC4IOEQ==",
-      "optional": true
-    },
-    "@rollup/rollup-darwin-x64": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-darwin-x64/-/rollup-darwin-x64-4.47.1.tgz",
-      "integrity": "sha512-XuJRPTnMk1lwsSnS3vYyVMu4x/+WIw1MMSiqj5C4j3QOWsMzbJEK90zG+SWV1h0B1ABGCQ0UZUjti+TQK35uHQ==",
-      "optional": true
-    },
-    "@rollup/rollup-freebsd-arm64": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-freebsd-arm64/-/rollup-freebsd-arm64-4.47.1.tgz",
-      "integrity": "sha512-79BAm8Ag/tmJ5asCqgOXsb3WY28Rdd5Lxj8ONiQzWzy9LvWORd5qVuOnjlqiWWZJw+dWewEktZb5yiM1DLLaHw==",
-      "optional": true
-    },
-    "@rollup/rollup-freebsd-x64": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-freebsd-x64/-/rollup-freebsd-x64-4.47.1.tgz",
-      "integrity": "sha512-OQ2/ZDGzdOOlyfqBiip0ZX/jVFekzYrGtUsqAfLDbWy0jh1PUU18+jYp8UMpqhly5ltEqotc2miLngf9FPSWIA==",
-      "optional": true
-    },
-    "@rollup/rollup-linux-arm-gnueabihf": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm-gnueabihf/-/rollup-linux-arm-gnueabihf-4.47.1.tgz",
-      "integrity": "sha512-HZZBXJL1udxlCVvoVadstgiU26seKkHbbAMLg7680gAcMnRNP9SAwTMVet02ANA94kXEI2VhBnXs4e5nf7KG2A==",
-      "optional": true
-    },
-    "@rollup/rollup-linux-arm-musleabihf": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm-musleabihf/-/rollup-linux-arm-musleabihf-4.47.1.tgz",
-      "integrity": "sha512-sZ5p2I9UA7T950JmuZ3pgdKA6+RTBr+0FpK427ExW0t7n+QwYOcmDTK/aRlzoBrWyTpJNlS3kacgSlSTUg6P/Q==",
-      "optional": true
-    },
-    "@rollup/rollup-linux-arm64-gnu": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm64-gnu/-/rollup-linux-arm64-gnu-4.47.1.tgz",
-      "integrity": "sha512-3hBFoqPyU89Dyf1mQRXCdpc6qC6At3LV6jbbIOZd72jcx7xNk3aAp+EjzAtN6sDlmHFzsDJN5yeUySvorWeRXA==",
-      "optional": true
-    },
-    "@rollup/rollup-linux-arm64-musl": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-arm64-musl/-/rollup-linux-arm64-musl-4.47.1.tgz",
-      "integrity": "sha512-49J4FnMHfGodJWPw73Ve+/hsPjZgcXQGkmqBGZFvltzBKRS+cvMiWNLadOMXKGnYRhs1ToTGM0sItKISoSGUNA==",
-      "optional": true
-    },
-    "@rollup/rollup-linux-loongarch64-gnu": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-loongarch64-gnu/-/rollup-linux-loongarch64-gnu-4.47.1.tgz",
-      "integrity": "sha512-4yYU8p7AneEpQkRX03pbpLmE21z5JNys16F1BZBZg5fP9rIlb0TkeQjn5du5w4agConCCEoYIG57sNxjryHEGg==",
-      "optional": true
-    },
-    "@rollup/rollup-linux-ppc64-gnu": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-ppc64-gnu/-/rollup-linux-ppc64-gnu-4.47.1.tgz",
-      "integrity": "sha512-fAiq+J28l2YMWgC39jz/zPi2jqc0y3GSRo1yyxlBHt6UN0yYgnegHSRPa3pnHS5amT/efXQrm0ug5+aNEu9UuQ==",
-      "optional": true
-    },
-    "@rollup/rollup-linux-riscv64-gnu": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-riscv64-gnu/-/rollup-linux-riscv64-gnu-4.47.1.tgz",
-      "integrity": "sha512-daoT0PMENNdjVYYU9xec30Y2prb1AbEIbb64sqkcQcSaR0zYuKkoPuhIztfxuqN82KYCKKrj+tQe4Gi7OSm1ow==",
-      "optional": true
-    },
-    "@rollup/rollup-linux-riscv64-musl": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-riscv64-musl/-/rollup-linux-riscv64-musl-4.47.1.tgz",
-      "integrity": "sha512-JNyXaAhWtdzfXu5pUcHAuNwGQKevR+6z/poYQKVW+pLaYOj9G1meYc57/1Xv2u4uTxfu9qEWmNTjv/H/EpAisw==",
-      "optional": true
-    },
-    "@rollup/rollup-linux-s390x-gnu": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-s390x-gnu/-/rollup-linux-s390x-gnu-4.47.1.tgz",
-      "integrity": "sha512-U/CHbqKSwEQyZXjCpY43/GLYcTVKEXeRHw0rMBJP7fP3x6WpYG4LTJWR3ic6TeYKX6ZK7mrhltP4ppolyVhLVQ==",
-      "optional": true
-    },
     "@rollup/rollup-linux-x64-gnu": {
       "version": "4.47.1",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.47.1.tgz",
@@ -4909,24 +4590,6 @@
       "version": "4.47.1",
       "resolved": "https://registry.npmjs.org/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.47.1.tgz",
       "integrity": "sha512-Ft+d/9DXs30BK7CHCTX11FtQGHUdpNDLJW0HHLign4lgMgBcPFN3NkdIXhC5r9iwsMwYreBBc4Rho5ieOmKNVQ==",
-      "optional": true
-    },
-    "@rollup/rollup-win32-arm64-msvc": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-win32-arm64-msvc/-/rollup-win32-arm64-msvc-4.47.1.tgz",
-      "integrity": "sha512-N9X5WqGYzZnjGAFsKSfYFtAShYjwOmFJoWbLg3dYixZOZqU7hdMq+/xyS14zKLhFhZDhP9VfkzQnsdk0ZDS9IA==",
-      "optional": true
-    },
-    "@rollup/rollup-win32-ia32-msvc": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-win32-ia32-msvc/-/rollup-win32-ia32-msvc-4.47.1.tgz",
-      "integrity": "sha512-O+KcfeCORZADEY8oQJk4HK8wtEOCRE4MdOkb8qGZQNun3jzmj2nmhV/B/ZaaZOkPmJyvm/gW9n0gsB4eRa1eiQ==",
-      "optional": true
-    },
-    "@rollup/rollup-win32-x64-msvc": {
-      "version": "4.47.1",
-      "resolved": "https://registry.npmjs.org/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.47.1.tgz",
-      "integrity": "sha512-CpKnYa8eHthJa3c+C38v/E+/KZyF1Jdh2Cz3DyKZqEWYgrM1IHFArXNWvBLPQCKUEsAqqKX27tTqVEFbDNUcOA==",
       "optional": true
     },
     "@rush-temp/coverage-tools": {
@@ -5243,11 +4906,11 @@
       "integrity": "sha512-xPyYSz1cMPnJQhl0CLMH68j3gprKZaTjG3s5Vi+fDgx+uhG9NOXwbVt52eFS8ECyXhyKcjDLCBEqBExKuiZb7Q=="
     },
     "@types/node": {
-      "version": "24.2.1",
-      "resolved": "https://registry.npmjs.org/@types/node/-/node-24.2.1.tgz",
-      "integrity": "sha512-DRh5K+ka5eJic8CjH7td8QpYEV6Zo10gfRkjHCO3weqZHWDtAaSTFtl4+VMqOJ4N5jcuhZ9/l+yy8rVgw7BQeQ==",
+      "version": "24.1.0",
+      "resolved": "https://registry.npmjs.org/@types/node/-/node-24.1.0.tgz",
+      "integrity": "sha512-ut5FthK5moxFKH2T1CUOC6ctR67rQRvvHdFLCD2Ql6KXmMuCrjsSsRI9UsLCm9M18BMwClv4pn327UvB7eeO1w==",
       "requires": {
-        "undici-types": "~7.10.0"
+        "undici-types": "~7.8.0"
       }
     },
     "@types/resolve": {
@@ -5819,12 +5482,6 @@
       "version": "1.0.0",
       "resolved": "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz",
       "integrity": "sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw=="
-    },
-    "fsevents": {
-      "version": "2.3.3",
-      "resolved": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz",
-      "integrity": "sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==",
-      "optional": true
     },
     "function-bind": {
       "version": "1.1.2",
@@ -7505,9 +7162,9 @@
       }
     },
     "undici-types": {
-      "version": "7.10.0",
-      "resolved": "https://registry.npmjs.org/undici-types/-/undici-types-7.10.0.tgz",
-      "integrity": "sha512-t5Fy/nfn+14LuOc2KNYg75vZqClpAiqscVvMygNnlsHBFpSXdJaYtXMcdNLpl/Qvc3P2cB3s6lOV51nqsFq4ag=="
+      "version": "7.8.0",
+      "resolved": "https://registry.npmjs.org/undici-types/-/undici-types-7.8.0.tgz",
+      "integrity": "sha512-9UJ2xGDvQ43tYyVMpuHlsgApydB8ZKfVYTsLDhXkFL/6gfkp+U8xTGdh8pMJv1SpZna0zxG1DwsKZsreLbXBxw=="
     },
     "unist-util-is": {
       "version": "6.0.0",
