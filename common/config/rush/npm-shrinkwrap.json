@@ -5180,7 +5180,7 @@
       "optional": true
     },
     "@rush-temp/coverage-tools": {
-      "version": "file:projects/coverage-tools.tgz",
+      "version": "file:projects\\coverage-tools.tgz",
       "integrity": "sha512-xn3Af1FBpy3LvvF2WTd5Gd0ARmCY0wjyR6JX8UPeoJPJM013PoO1mq5+x5mrlnm84dzn1cWMyUW9Fu5gvRvfhg==",
       "requires": {
         "@microsoft/api-extractor": "^7.34.4",
@@ -5219,7 +5219,7 @@
       }
     },
     "@rush-temp/publish-npm": {
-      "version": "file:projects/publish-npm.tgz",
+      "version": "file:projects\\publish-npm.tgz",
       "integrity": "sha512-Wkf+clKGZwMBOEoMDkt+Vc+WrcPM+4doZAUwItxOyxFgQBOLYbVwrUEVVNVn1LK6dGZMflYhnFYoiKmXgJgq9g==",
       "requires": {
         "@microsoft/api-extractor": "^7.34.4",
@@ -5254,7 +5254,7 @@
       }
     },
     "@rush-temp/ts-preproc": {
-      "version": "file:projects/ts-preproc.tgz",
+      "version": "file:projects\\ts-preproc.tgz",
       "integrity": "sha512-7pjost1+mpLBo0esCE3tDSQOl0uF4ES7K3FNVZfDISPdtUoQnc5URMIzi+HRR9ai7zGFzQrRRl7p9esNoJD9hw==",
       "requires": {
         "@microsoft/api-extractor": "^7.34.4",
