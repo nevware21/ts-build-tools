@@ -9,7 +9,7 @@
       "version": "0.0.0",
       "dependencies": {
         "@microsoft/api-extractor": "^7.34.4",
-        "@nevware21/tripwire": "^0.1.1",
+        "@nevware21/tripwire": ">= 0.1.7 < 2.x",
         "@nevware21/ts-utils": ">= 0.12.6 < 2.x",
         "@rollup/plugin-commonjs": "^29.0.0",
         "@rollup/plugin-json": "^6.0.0",
@@ -277,9 +277,9 @@
       }
     },
     "node_modules/@nevware21/tripwire": {
-      "version": "0.1.6",
-      "resolved": "https://registry.npmjs.org/@nevware21/tripwire/-/tripwire-0.1.6.tgz",
-      "integrity": "sha512-bBB1W+RqGhPEdfD8YEfOA6q02458HRSSaLZa36EZSBG6cjJI70ffHQi4Dl1APsaw/rGSgAfoUQ0fPhFMhcbFTA==",
+      "version": "0.1.7",
+      "resolved": "https://registry.npmjs.org/@nevware21/tripwire/-/tripwire-0.1.7.tgz",
+      "integrity": "sha512-RXSiwfVo4vol4fD8iYgz/cYB725crxs/1J94Q/gW4S7Tol24FzJz81CcWvHjoJjRDLlkAJyaLOdWflZ4HAp2rw==",
       "dependencies": {
         "@nevware21/chromacon": ">= 0.1.3 < 2.x",
         "@nevware21/ts-async": ">= 0.5.4 < 2.x",
@@ -757,10 +757,10 @@
     "node_modules/@rush-temp/coverage-tools": {
       "version": "0.0.0",
       "resolved": "file:projects/coverage-tools.tgz",
-      "integrity": "sha512-gv9HMar8W21eCqGJ1BG88LWUfrX0yWuxgyOhADFs9Kags1AKIYSr1QGlQVWBV/l0U8sdQC2XysROYO3kY2uXMg==",
+      "integrity": "sha512-xn3Af1FBpy3LvvF2WTd5Gd0ARmCY0wjyR6JX8UPeoJPJM013PoO1mq5+x5mrlnm84dzn1cWMyUW9Fu5gvRvfhg==",
       "dependencies": {
         "@microsoft/api-extractor": "^7.34.4",
-        "@nevware21/tripwire": "^0.1.1",
+        "@nevware21/tripwire": ">= 0.1.7 < 2.x",
         "@rollup/plugin-commonjs": "^29.0.0",
         "@rollup/plugin-json": "^6.0.0",
         "@rollup/plugin-node-resolve": "^16.0.0",
@@ -802,10 +802,10 @@
     "node_modules/@rush-temp/publish-npm": {
       "version": "0.0.0",
       "resolved": "file:projects/publish-npm.tgz",
-      "integrity": "sha512-I4m0TuvJ66Ck255yAAUK47rKtp1dsfuPmJWvA0+ko4rwUa9kC8OukvcfrkBCVYmLLhaT5kRoUsq8bsDwvGFkGg==",
+      "integrity": "sha512-Wkf+clKGZwMBOEoMDkt+Vc+WrcPM+4doZAUwItxOyxFgQBOLYbVwrUEVVNVn1LK6dGZMflYhnFYoiKmXgJgq9g==",
       "dependencies": {
         "@microsoft/api-extractor": "^7.34.4",
-        "@nevware21/tripwire": "^0.1.1",
+        "@nevware21/tripwire": ">= 0.1.7 < 2.x",
         "@rollup/plugin-commonjs": "^29.0.0",
         "@rollup/plugin-json": "^6.0.0",
         "@rollup/plugin-node-resolve": "^16.0.0",
@@ -845,10 +845,10 @@
     "node_modules/@rush-temp/ts-preproc": {
       "version": "0.0.0",
       "resolved": "file:projects/ts-preproc.tgz",
-      "integrity": "sha512-Rm0NblaRu5lanq3pYsIjor19dMRSSkDF+kpqTsnID5THDaV1KXRTKwkWQyjA4EmB0MJyrRhPybL7CLDBoryixQ==",
+      "integrity": "sha512-7pjost1+mpLBo0esCE3tDSQOl0uF4ES7K3FNVZfDISPdtUoQnc5URMIzi+HRR9ai7zGFzQrRRl7p9esNoJD9hw==",
       "dependencies": {
         "@microsoft/api-extractor": "^7.34.4",
-        "@nevware21/tripwire": "^0.1.1",
+        "@nevware21/tripwire": ">= 0.1.7 < 2.x",
         "@nevware21/ts-utils": ">= 0.12.6 < 2.x",
         "@rollup/plugin-commonjs": "^29.0.0",
         "@rollup/plugin-json": "^6.0.0",
@@ -2969,9 +2969,9 @@
       }
     },
     "node_modules/markdown-it": {
-      "version": "14.1.0",
-      "resolved": "https://registry.npmjs.org/markdown-it/-/markdown-it-14.1.0.tgz",
-      "integrity": "sha512-a54IwgWPaeBCAAsv13YgmALOF1elABB08FxO9i+r4VFk5Vl4pKokRPeX8u5TCgSsPi6ec1otfLjdOpVcgbpshg==",
+      "version": "14.1.1",
+      "resolved": "https://registry.npmjs.org/markdown-it/-/markdown-it-14.1.1.tgz",
+      "integrity": "sha512-BuU2qnTti9YKgK5N+IeMubp14ZUKUUw7yeJbkjtosvHiP0AZ5c8IAgEMk79D0eC8F23r4Ac/q8cAIFdm2FtyoA==",
       "dependencies": {
         "argparse": "^2.0.1",
         "entities": "^4.4.0",
@@ -4922,9 +4922,9 @@
       }
     },
     "@nevware21/tripwire": {
-      "version": "0.1.6",
-      "resolved": "https://registry.npmjs.org/@nevware21/tripwire/-/tripwire-0.1.6.tgz",
-      "integrity": "sha512-bBB1W+RqGhPEdfD8YEfOA6q02458HRSSaLZa36EZSBG6cjJI70ffHQi4Dl1APsaw/rGSgAfoUQ0fPhFMhcbFTA==",
+      "version": "0.1.7",
+      "resolved": "https://registry.npmjs.org/@nevware21/tripwire/-/tripwire-0.1.7.tgz",
+      "integrity": "sha512-RXSiwfVo4vol4fD8iYgz/cYB725crxs/1J94Q/gW4S7Tol24FzJz81CcWvHjoJjRDLlkAJyaLOdWflZ4HAp2rw==",
       "requires": {
         "@nevware21/chromacon": ">= 0.1.3 < 2.x",
         "@nevware21/ts-async": ">= 0.5.4 < 2.x",
@@ -5180,11 +5180,11 @@
       "optional": true
     },
     "@rush-temp/coverage-tools": {
-      "version": "file:projects\\coverage-tools.tgz",
-      "integrity": "sha512-gv9HMar8W21eCqGJ1BG88LWUfrX0yWuxgyOhADFs9Kags1AKIYSr1QGlQVWBV/l0U8sdQC2XysROYO3kY2uXMg==",
+      "version": "file:projects/coverage-tools.tgz",
+      "integrity": "sha512-xn3Af1FBpy3LvvF2WTd5Gd0ARmCY0wjyR6JX8UPeoJPJM013PoO1mq5+x5mrlnm84dzn1cWMyUW9Fu5gvRvfhg==",
       "requires": {
         "@microsoft/api-extractor": "^7.34.4",
-        "@nevware21/tripwire": "^0.1.1",
+        "@nevware21/tripwire": ">= 0.1.7 < 2.x",
         "@rollup/plugin-commonjs": "^29.0.0",
         "@rollup/plugin-json": "^6.0.0",
         "@rollup/plugin-node-resolve": "^16.0.0",
@@ -5219,11 +5219,11 @@
       }
     },
     "@rush-temp/publish-npm": {
-      "version": "file:projects\\publish-npm.tgz",
-      "integrity": "sha512-I4m0TuvJ66Ck255yAAUK47rKtp1dsfuPmJWvA0+ko4rwUa9kC8OukvcfrkBCVYmLLhaT5kRoUsq8bsDwvGFkGg==",
+      "version": "file:projects/publish-npm.tgz",
+      "integrity": "sha512-Wkf+clKGZwMBOEoMDkt+Vc+WrcPM+4doZAUwItxOyxFgQBOLYbVwrUEVVNVn1LK6dGZMflYhnFYoiKmXgJgq9g==",
       "requires": {
         "@microsoft/api-extractor": "^7.34.4",
-        "@nevware21/tripwire": "^0.1.1",
+        "@nevware21/tripwire": ">= 0.1.7 < 2.x",
         "@rollup/plugin-commonjs": "^29.0.0",
         "@rollup/plugin-json": "^6.0.0",
         "@rollup/plugin-node-resolve": "^16.0.0",
@@ -5254,11 +5254,11 @@
       }
     },
     "@rush-temp/ts-preproc": {
-      "version": "file:projects\\ts-preproc.tgz",
-      "integrity": "sha512-Rm0NblaRu5lanq3pYsIjor19dMRSSkDF+kpqTsnID5THDaV1KXRTKwkWQyjA4EmB0MJyrRhPybL7CLDBoryixQ==",
+      "version": "file:projects/ts-preproc.tgz",
+      "integrity": "sha512-7pjost1+mpLBo0esCE3tDSQOl0uF4ES7K3FNVZfDISPdtUoQnc5URMIzi+HRR9ai7zGFzQrRRl7p9esNoJD9hw==",
       "requires": {
         "@microsoft/api-extractor": "^7.34.4",
-        "@nevware21/tripwire": "^0.1.1",
+        "@nevware21/tripwire": ">= 0.1.7 < 2.x",
         "@nevware21/ts-utils": ">= 0.12.6 < 2.x",
         "@rollup/plugin-commonjs": "^29.0.0",
         "@rollup/plugin-json": "^6.0.0",
@@ -6851,9 +6851,9 @@
       "integrity": "sha512-8y/eV9QQZCiyn1SprXSrCmqJN0yNRATe+PO8ztwqrvrbdRLA3eYJF0yaR0YayLWkMbsQSKWS9N2gPcGEc4UsZg=="
     },
     "markdown-it": {
-      "version": "14.1.0",
-      "resolved": "https://registry.npmjs.org/markdown-it/-/markdown-it-14.1.0.tgz",
-      "integrity": "sha512-a54IwgWPaeBCAAsv13YgmALOF1elABB08FxO9i+r4VFk5Vl4pKokRPeX8u5TCgSsPi6ec1otfLjdOpVcgbpshg==",
+      "version": "14.1.1",
+      "resolved": "https://registry.npmjs.org/markdown-it/-/markdown-it-14.1.1.tgz",
+      "integrity": "sha512-BuU2qnTti9YKgK5N+IeMubp14ZUKUUw7yeJbkjtosvHiP0AZ5c8IAgEMk79D0eC8F23r4Ac/q8cAIFdm2FtyoA==",
       "requires": {
         "argparse": "^2.0.1",
         "entities": "^4.4.0",
