@@ -63,7 +63,7 @@
         "@microsoft/rush": "5.168.0",
         "@nevware21/grunt-eslint-ts": "^0.5.1",
         "@nevware21/grunt-ts-plugin": "^0.5.1",
-        "@nevware21/tripwire": ">= 0.1.7 < 2.x",
+        "@nevware21/tripwire": ">= 0.1.8 < 2.x",
         "@types/eslint": "^9.6.1",
         "@types/estree": "^1.0.0",
         "@types/jquery": "^3.5.14",
