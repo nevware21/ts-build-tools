@@ -12,6 +12,8 @@
 
 This is a mono-repo containing multiple TypeScript build tools:
 
+CI validation currently runs on Node.js `18`, `20`, `22`, and `24`.
+
 | Package                                                | Description                              | Details
 | -------------------------------------------------------|------------------------------------------|----------
 | [@nevware21/<wbr>ts&#8209;preproc](./lib/pre-proc/README.md)<br><ul><li>ts&#8209;preproc</li><li>ts&#8209;preproc&#8209;restore</li></ul> | A simple pre-processor which can be run against your TypeScript or JavaScript files using single line comments to comment out the code which does not "pass" the pre-processor directives. | [![npm version](https://badge.fury.io/js/%40nevware21%2Fts-preproc.svg)](https://badge.fury.io/js/%40nevware21%2Fts-preproc) [![downloads](https://img.shields.io/npm/dt/%40nevware21/ts-preproc.svg)](https://www.npmjs.com/package/%40nevware21/ts-preproc) [![downloads](https://img.shields.io/npm/dm/%40nevware21/ts-preproc.svg)](https://www.npmjs.com/package/%40nevware21/ts-preproc)

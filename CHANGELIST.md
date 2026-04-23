@@ -1,3 +1,9 @@
+# Unreleased
+
+## Changelog
+
+- [Breaking][Tooling] Updated the CI Node.js matrix to `18`, `20`, `22`, and `24`; removed Node.js `16` because dependencies and runtime features now require Node.js 18+.
+
 # v0.1.4 Nov 18th, 2024
 
 ## Changelog
