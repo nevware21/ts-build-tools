@@ -4453,6 +4453,7 @@
       "version": "8.3.2",
       "resolved": "https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz",
       "integrity": "sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==",
+      "deprecated": "uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).",
       "bin": {
         "uuid": "dist/bin/uuid"
       }
@@ -4587,9 +4588,9 @@
       }
     },
     "node_modules/yaml": {
-      "version": "2.8.3",
-      "resolved": "https://registry.npmjs.org/yaml/-/yaml-2.8.3.tgz",
-      "integrity": "sha512-AvbaCLOO2Otw/lW5bmh9d/WEdcDFdQp2Z2ZUH3pX9U2ihyUY0nvLv7J6TrWowklRGPYbB/IuIMfYgxaCPg5Bpg==",
+      "version": "2.8.4",
+      "resolved": "https://registry.npmjs.org/yaml/-/yaml-2.8.4.tgz",
+      "integrity": "sha512-ml/JPOj9fOQK8RNnWojA67GbZ0ApXAUlN2UQclwv2eVgTgn7O9gg9o7paZWKMp4g0H3nTLtS9LVzhkpOFIKzog==",
       "bin": {
         "yaml": "bin.mjs"
       },
@@ -7906,9 +7907,9 @@
       "integrity": "sha512-0pfFzegeDWJHJIAmTLRP2DwHjdF5s7jo9tuztdQxAhINCdvS+3nGINqPd00AphqJR/0LhANUS6/+7SCb98YOfA=="
     },
     "yaml": {
-      "version": "2.8.3",
-      "resolved": "https://registry.npmjs.org/yaml/-/yaml-2.8.3.tgz",
-      "integrity": "sha512-AvbaCLOO2Otw/lW5bmh9d/WEdcDFdQp2Z2ZUH3pX9U2ihyUY0nvLv7J6TrWowklRGPYbB/IuIMfYgxaCPg5Bpg=="
+      "version": "2.8.4",
+      "resolved": "https://registry.npmjs.org/yaml/-/yaml-2.8.4.tgz",
+      "integrity": "sha512-ml/JPOj9fOQK8RNnWojA67GbZ0ApXAUlN2UQclwv2eVgTgn7O9gg9o7paZWKMp4g0H3nTLtS9LVzhkpOFIKzog=="
     },
     "yargs": {
       "version": "16.2.0",
