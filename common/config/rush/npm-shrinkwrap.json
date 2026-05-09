@@ -736,7 +736,7 @@
     "node_modules/@rush-temp/coverage-tools": {
       "version": "0.0.0",
       "resolved": "file:projects/coverage-tools.tgz",
-      "integrity": "sha512-JlNLWpQSOrBaZJmz0RNHzfQexFfw8HxmxeIO0hiwr7c755I1Ydtx1G1rG6/LPygappi8+iStSWdRo+jZtyajWw==",
+      "integrity": "sha512-gNM/a/NnIty0UVchDMc5ZqglAAKx3tjlnwznuSL+8tJ3kaETsRTQSfhDw/5cbZf1+xdUhNf7Xzo2qGtYliO14g==",
       "dependencies": {
         "@microsoft/api-extractor": "^7.34.4",
         "@nevware21/tripwire": ">= 0.1.8 < 2.x",
@@ -781,7 +781,7 @@
     "node_modules/@rush-temp/publish-npm": {
       "version": "0.0.0",
       "resolved": "file:projects/publish-npm.tgz",
-      "integrity": "sha512-YPdx2qJ7jG8Gux2t/R/kMbcjZk7wIvIYRTQ9ZOB6Brl53YjorOw7e6o3UahETBBbo4xpo13kN9cwyQ0x0liu4Q==",
+      "integrity": "sha512-K6VC+rvHHcuw/LA5iwn2AtBGDNuD5Fc273D8qgU8JD64EKRWcSvKLw+5tw9QFmaWFldiyk6jVKQbCD+F7OJi+w==",
       "dependencies": {
         "@microsoft/api-extractor": "^7.34.4",
         "@nevware21/tripwire": ">= 0.1.8 < 2.x",
@@ -824,7 +824,7 @@
     "node_modules/@rush-temp/ts-preproc": {
       "version": "0.0.0",
       "resolved": "file:projects/ts-preproc.tgz",
-      "integrity": "sha512-epHCX55bZey0JDAhW9S9Rcnluke2yVnW9Yr4s9734jBQe/KSHbZ6pVQKfbiYBwTXKAsEN0LSwhRbp4iqQyG0HQ==",
+      "integrity": "sha512-s62gpqUAbnIo+S6jJUpNGC100UgpT+joN7sWySfh7WBgsQjwzGd7sIkbDgKWOTML2KfHpgMWyG5vGcNz/7+dYw==",
       "dependencies": {
         "@microsoft/api-extractor": "^7.34.4",
         "@nevware21/tripwire": ">= 0.1.8 < 2.x",
@@ -2184,7 +2184,7 @@
         "exit": "~0.1.2",
         "findup-sync": "~5.0.0",
         "glob": "~7.1.6",
-        "grunt-cli": "^1.5.0",
+        "grunt-cli": "^1.4.3",
         "grunt-known-options": "~2.0.0",
         "grunt-legacy-log": "~3.0.0",
         "grunt-legacy-util": "~2.0.1",
@@ -5117,7 +5117,7 @@
     },
     "@rush-temp/coverage-tools": {
       "version": "file:projects\\coverage-tools.tgz",
-      "integrity": "sha512-JlNLWpQSOrBaZJmz0RNHzfQexFfw8HxmxeIO0hiwr7c755I1Ydtx1G1rG6/LPygappi8+iStSWdRo+jZtyajWw==",
+      "integrity": "sha512-gNM/a/NnIty0UVchDMc5ZqglAAKx3tjlnwznuSL+8tJ3kaETsRTQSfhDw/5cbZf1+xdUhNf7Xzo2qGtYliO14g==",
       "requires": {
         "@microsoft/api-extractor": "^7.34.4",
         "@nevware21/tripwire": ">= 0.1.8 < 2.x",
@@ -5156,7 +5156,7 @@
     },
     "@rush-temp/publish-npm": {
       "version": "file:projects\\publish-npm.tgz",
-      "integrity": "sha512-YPdx2qJ7jG8Gux2t/R/kMbcjZk7wIvIYRTQ9ZOB6Brl53YjorOw7e6o3UahETBBbo4xpo13kN9cwyQ0x0liu4Q==",
+      "integrity": "sha512-K6VC+rvHHcuw/LA5iwn2AtBGDNuD5Fc273D8qgU8JD64EKRWcSvKLw+5tw9QFmaWFldiyk6jVKQbCD+F7OJi+w==",
       "requires": {
         "@microsoft/api-extractor": "^7.34.4",
         "@nevware21/tripwire": ">= 0.1.8 < 2.x",
@@ -5191,7 +5191,7 @@
     },
     "@rush-temp/ts-preproc": {
       "version": "file:projects\\ts-preproc.tgz",
-      "integrity": "sha512-epHCX55bZey0JDAhW9S9Rcnluke2yVnW9Yr4s9734jBQe/KSHbZ6pVQKfbiYBwTXKAsEN0LSwhRbp4iqQyG0HQ==",
+      "integrity": "sha512-s62gpqUAbnIo+S6jJUpNGC100UgpT+joN7sWySfh7WBgsQjwzGd7sIkbDgKWOTML2KfHpgMWyG5vGcNz/7+dYw==",
       "requires": {
         "@microsoft/api-extractor": "^7.34.4",
         "@nevware21/tripwire": ">= 0.1.8 < 2.x",
@@ -6194,7 +6194,7 @@
         "exit": "~0.1.2",
         "findup-sync": "~5.0.0",
         "glob": "~7.1.6",
-        "grunt-cli": "^1.5.0",
+        "grunt-cli": "^1.4.3",
         "grunt-known-options": "~2.0.0",
         "grunt-legacy-log": "~3.0.0",
         "grunt-legacy-util": "~2.0.1",
