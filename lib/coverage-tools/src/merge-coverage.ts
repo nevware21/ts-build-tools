@@ -32,9 +32,12 @@ export function normalizeCoverageKeys(jsonBlob: any): any {
     const normalized: any = {};
     Object.keys(jsonBlob).forEach((key: string) => {
         const normalizedKey = key.replace(/\\/g, "/");
-        normalized[normalizedKey] = jsonBlob[key];
-        if (normalized[normalizedKey] && normalized[normalizedKey].path) {
-            normalized[normalizedKey].path = normalized[normalizedKey].path.replace(/\\/g, "/");
+        const entry = jsonBlob[key];
+        const normalizedEntry = entry && typeof entry === "object" ? { ...entry } : entry;
+
+        normalized[normalizedKey] = normalizedEntry;
+        if (normalizedEntry && normalizedEntry.path) {
+            normalizedEntry.path = normalizedEntry.path.replace(/\\/g, "/");
         }
     });
     return normalized;
