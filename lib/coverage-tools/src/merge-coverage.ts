@@ -21,6 +21,25 @@ import { findPath, getJson } from "./utils";
 
 export { IMergeCoverageArgs };
 
+/**
+ * Normalize all path keys and `path` properties in a coverage JSON blob to use
+ * forward slashes. This ensures that entries produced by tools that emit
+ * Windows-style backslash paths (e.g. nyc) are treated as the same file as
+ * entries produced by tools that emit POSIX-style forward-slash paths
+ * (e.g. karma-typescript) when istanbul merges the coverage maps.
+ */
+export function normalizeCoverageKeys(jsonBlob: any): any {
+    const normalized: any = {};
+    Object.keys(jsonBlob).forEach((key: string) => {
+        const normalizedKey = key.replace(/\\/g, "/");
+        normalized[normalizedKey] = jsonBlob[key];
+        if (normalized[normalizedKey] && normalized[normalizedKey].path) {
+            normalized[normalizedKey].path = normalized[normalizedKey].path.replace(/\\/g, "/");
+        }
+    });
+    return normalized;
+}
+
 export function findCoverage(thePath: string): string {
     let foundPath = findPath((thePath) => {
         if (fs.existsSync(thePath + "coverage")) {
@@ -54,14 +73,18 @@ export function mergeCoverage(cfg: IMergeCoverageArgs) {
 
     console.log(`Merging coverage files in ${rootPath} - [${fs.realpathSync(rootPath)}]`);
     // Find any files named "coverage-final.json" (excluding any existing merged one)
+    // Normalize to forward slashes so the filter works correctly on Windows too
     let jsonFiles = globbySync(`${rootPath}/**/coverage-final.json`)
+        .map((possibleFile: any) => possibleFile.replace(/\\/g, "/"))
         .filter((possibleFile: any) => (possibleFile.indexOf("report") === -1 && possibleFile.indexOf("coverage/coverage-final.json") === -1));
 
     console.log(`Found ${jsonFiles.length} coverage files to merge:`);
     jsonFiles.forEach((file: any) => console.log(`  merging: ${file}`));
 
-    // Load the json blobs from the discovered .json files
-    var jsonBlobs = jsonFiles.map((file: any) => getJson(file));
+    // Load the json blobs from the discovered .json files, normalizing path keys
+    // to forward slashes so that nyc (backslash) and karma-typescript (forward slash)
+    // entries are treated as the same file on Windows.
+    var jsonBlobs = jsonFiles.map((file: any) => normalizeCoverageKeys(getJson(file)));
 
     // Create an empty map and merge in all the loaded maps
     let mergedMap = istanbulCoverage.createCoverageMap();
