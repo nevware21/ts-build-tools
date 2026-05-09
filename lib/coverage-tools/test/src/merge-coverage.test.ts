@@ -36,13 +36,13 @@ describe("normalizeCoverageKeys", () => {
         // Simulate nyc (backslash) + karma-typescript (forward-slash) for the same file
         const input = {
             "D:\\project\\src\\foo.ts": { path: "D:\\project\\src\\foo.ts", s: { "0": 1 }, b: {}, f: {}, fnMap: {}, statementMap: {}, branchMap: {} },
-            "D:/project/src/bar.ts": { path: "D:/project/src/bar.ts", s: {}, b: {}, f: {}, fnMap: {}, statementMap: {}, branchMap: {} }
+            "D:/project/src/foo.ts": { path: "D:/project/src/foo.ts", s: { "0": 2 }, b: {}, f: {}, fnMap: {}, statementMap: {}, branchMap: {} }
         };
         const result = normalizeCoverageKeys(input);
-        const keys = Object.keys(result).sort();
-        expect(keys).deep.equals(["D:/project/src/bar.ts", "D:/project/src/foo.ts"]);
+        const keys = Object.keys(result);
+        expect(keys).deep.equals(["D:/project/src/foo.ts"]);
         expect(result["D:/project/src/foo.ts"].path).equals("D:/project/src/foo.ts");
-        expect(result["D:/project/src/bar.ts"].path).equals("D:/project/src/bar.ts");
+        expect(result["D:/project/src/foo.ts"].s).deep.equals({ "0": 2 });
     });
 
     it("should not modify entries without a path property", () => {
