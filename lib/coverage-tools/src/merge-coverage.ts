@@ -75,16 +75,16 @@ export function mergeCoverage(cfg: IMergeCoverageArgs) {
     // Find any files named "coverage-final.json" (excluding any existing merged one)
     // Normalize to forward slashes so the filter works correctly on Windows too
     let jsonFiles = globbySync(`${rootPath}/**/coverage-final.json`)
-        .map((possibleFile: any) => possibleFile.replace(/\\/g, "/"))
-        .filter((possibleFile: any) => (possibleFile.indexOf("report") === -1 && possibleFile.indexOf("coverage/coverage-final.json") === -1));
+        .map((possibleFile: string) => possibleFile.replace(/\\/g, "/"))
+        .filter((possibleFile: string) => (possibleFile.indexOf("report") === -1 && possibleFile.indexOf("coverage/coverage-final.json") === -1));
 
     console.log(`Found ${jsonFiles.length} coverage files to merge:`);
-    jsonFiles.forEach((file: any) => console.log(`  merging: ${file}`));
+    jsonFiles.forEach((file: string) => console.log(`  merging: ${file}`));
 
     // Load the json blobs from the discovered .json files, normalizing path keys
     // to forward slashes so that nyc (backslash) and karma-typescript (forward slash)
     // entries are treated as the same file on Windows.
-    var jsonBlobs = jsonFiles.map((file: any) => normalizeCoverageKeys(getJson(file)));
+    const jsonBlobs = jsonFiles.map((file: string) => normalizeCoverageKeys(getJson(file)));
 
     // Create an empty map and merge in all the loaded maps
     let mergedMap = istanbulCoverage.createCoverageMap();
