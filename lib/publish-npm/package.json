@@ -45,10 +45,16 @@
     "bugs": {
         "url": "https://github.com/nevware21/ts-build-tools/issues"
     },
-    "funding": {
-        "type": "github",
-        "url": "https://github.com/sponsors/nevware21"
-    },
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/nevware21"
+        },
+        {
+            "type": "buymeacoffee",
+            "url": "https://buymeacoffee.com/nevware21"
+        }
+    ],
     "devDependencies": {
         "@microsoft/api-extractor": "^7.34.4",
         "@nevware21/tripwire": ">= 0.1.8 < 2.x",
