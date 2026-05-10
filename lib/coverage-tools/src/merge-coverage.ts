@@ -39,13 +39,10 @@ export function normalizeCoverageKeys(jsonBlob: any): any {
             normalizedEntry.path = normalizedEntry.path.replace(/\\/g, "/");
         }
 
-        if (normalized[normalizedKey] && normalizedEntry) {
-            const mergedEntry = istanbulCoverage.createFileCoverage(normalized[normalizedKey]);
-            mergedEntry.merge(normalizedEntry);
-            normalized[normalizedKey] = mergedEntry.toJSON();
-        } else {
-            normalized[normalizedKey] = normalizedEntry;
-        }
+        // The later entry wins if both a backslash-keyed and a forward-slash-keyed entry
+        // normalize to the same key. Cross-blob merging is handled by istanbul in the
+        // main mergeCoverage loop.
+        normalized[normalizedKey] = normalizedEntry;
     });
     return normalized;
 }
