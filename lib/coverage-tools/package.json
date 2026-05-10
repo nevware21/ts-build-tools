@@ -40,6 +40,13 @@
         "npm-pack": "copyfiles ../../LICENSE . && npm pack"
     },
     "repository": "nevware21/ts-build-tools",
+    "bugs": {
+        "url": "https://github.com/nevware21/ts-build-tools/issues"
+    },
+    "funding": {
+        "type": "github",
+        "url": "https://github.com/sponsors/nevware21"
+    },
     "dependencies": {
         "globby": "^13.2.2",
         "istanbul-lib-coverage": "^3.0.0",
