@@ -35,9 +35,16 @@ export function normalizeCoverageKeys(jsonBlob: any): any {
         const entry = jsonBlob[key];
         const normalizedEntry = entry && typeof entry === "object" ? { ...entry } : entry;
 
-        normalized[normalizedKey] = normalizedEntry;
         if (normalizedEntry && normalizedEntry.path) {
             normalizedEntry.path = normalizedEntry.path.replace(/\\/g, "/");
+        }
+
+        if (normalized[normalizedKey] && normalizedEntry) {
+            const mergedEntry = istanbulCoverage.createFileCoverage(normalized[normalizedKey]);
+            mergedEntry.merge(normalizedEntry);
+            normalized[normalizedKey] = mergedEntry.toJSON();
+        } else {
+            normalized[normalizedKey] = normalizedEntry;
         }
     });
     return normalized;
