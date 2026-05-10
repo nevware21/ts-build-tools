@@ -17,35 +17,9 @@ import * as fs from "fs";
 import * as path from "path";
 import { globbySync } from "globby";
 import { IMergeCoverageArgs } from "./interfaces/IMergeCoverageArgs";
-import { findPath, getJson } from "./utils";
+import { findPath, getJson, normalizeCoverageKeys } from "./utils";
 
-export { IMergeCoverageArgs };
-
-/**
- * Normalize all path keys and `path` properties in a coverage JSON blob to use
- * forward slashes. This ensures that entries produced by tools that emit
- * Windows-style backslash paths (e.g. nyc) are treated as the same file as
- * entries produced by tools that emit POSIX-style forward-slash paths
- * (e.g. karma-typescript) when istanbul merges the coverage maps.
- */
-export function normalizeCoverageKeys(jsonBlob: any): any {
-    const normalized: any = {};
-    Object.keys(jsonBlob).forEach((key: string) => {
-        const normalizedKey = key.replace(/\\/g, "/");
-        const entry = jsonBlob[key];
-        const normalizedEntry = entry && typeof entry === "object" ? { ...entry } : entry;
-
-        if (normalizedEntry && normalizedEntry.path) {
-            normalizedEntry.path = normalizedEntry.path.replace(/\\/g, "/");
-        }
-
-        // The later entry wins if both a backslash-keyed and a forward-slash-keyed entry
-        // normalize to the same key. Cross-blob merging is handled by istanbul in the
-        // main mergeCoverage loop.
-        normalized[normalizedKey] = normalizedEntry;
-    });
-    return normalized;
-}
+export { IMergeCoverageArgs, normalizeCoverageKeys };
 
 export function findCoverage(thePath: string): string {
     let foundPath = findPath((thePath) => {

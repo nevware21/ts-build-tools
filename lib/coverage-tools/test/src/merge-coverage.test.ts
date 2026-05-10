@@ -7,7 +7,7 @@
  */
 
 import { expect } from "@nevware21/tripwire";
-import { normalizeCoverageKeys } from "../../src/merge-coverage";
+import { normalizeCoverageKeys } from "../../src/utils";
 
 describe("normalizeCoverageKeys", () => {
     it("should return an empty object for an empty input", () => {
