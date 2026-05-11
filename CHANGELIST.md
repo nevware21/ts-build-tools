@@ -12,11 +12,15 @@
 
 - [#48](https://github.com/nevware21/ts-build-tools/issues/48) [Bug] Error message dumps entire script on error #48 [#49](https://github.com/nevware21/ts-build-tools/pull/49)
 
+[Full changelog](https://github.com/nevware21/ts-build-tools/compare/0.1.3...0.1.4)
+
 # v0.1.3 Nov 17th, 2024
 
 ## Changelog
 
 - [#40](https://github.com/nevware21/ts-build-tools/issues/40) [Bug] publish-npm with no config file #40 [#41](https://github.com/nevware21/ts-build-tools/pull/41)
+
+[Full changelog](https://github.com/nevware21/ts-build-tools/compare/0.1.2...0.1.3)
 
 # v0.1.2 Nov 17th, 2024
 
@@ -25,12 +29,15 @@
 - [#37](https://github.com/nevware21/ts-build-tools/issues/37) [Bug] Update the default location of the package-groups.json
 - Added support for auto locating the repo root when not specified
 
+[Full changelog](https://github.com/nevware21/ts-build-tools/compare/0.1.1...0.1.2)
+
 # v0.1.1 Nov 16th, 2024
 
 ## Changelog
 
 - [#34](https://github.com/nevware21/ts-build-tools/issues/34) [Bug] The bin files are not created correctly on install #34 [#35](https://github.com/nevware21/ts-build-tools/pull/35)
 
+[Full changelog](https://github.com/nevware21/ts-build-tools/compare/0.1.0...0.1.1)
 
 # v0.1.0 Nov 16th, 2024
 
