@@ -125,7 +125,7 @@ Internal packages (`@nevware21/coverage-tools`, `@nevware21/ts-preproc`, `@nevwa
  * @nevware21/ts-build-tools
  * https://github.com/nevware21/ts-build-tools
  *
- * Copyright (c) 2022 NevWare21 Solutions LLC
+ * Copyright (c) [year] NevWare21 Solutions LLC
  * Licensed under the MIT license.
  */
 ```
