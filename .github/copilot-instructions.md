@@ -114,7 +114,7 @@ Internal packages (`@nevware21/coverage-tools`, `@nevware21/ts-preproc`, `@nevwa
 
 ## Coding Conventions
 
-- Language: TypeScript (compiled to ES5/ES6 via Rollup).
+- Language: TypeScript. Rollup build outputs vary by package: `lib/pre-proc` produces ES5 and ES6 outputs, while `lib/coverage-tools` and `lib/publish-npm` currently produce ES5 outputs.
 - Linting: ESLint with `@typescript-eslint` plugin; run `npm run lint` in individual packages.
 - Tests: Mocha via `ts-mocha`; run `npm run test` from root or individual packages.
 - No new external runtime dependencies should be introduced without discussion; prefer `@nevware21/ts-utils` utilities.
