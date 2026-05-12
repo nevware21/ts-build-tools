@@ -87,7 +87,7 @@ Update **all** of the following files in a single commit:
 Each released version entry follows this pattern:
 
 ```markdown
-# v<version> <Month> <Day>, <Year>
+# v<version> <Month> <Day><ordinal>, <Year>
 
 ## Changelog
 
