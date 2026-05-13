@@ -2,9 +2,15 @@
 
 ## Changelog
 
+# v0.1.5 May 13th, 2026
+
+## Changelog
+
 - [Breaking][Tooling] Updated the CI Node.js matrix to `18`, `20`, `22`, and `24`; removed Node.js `16`.
   - Why: Node.js 16 is EOL and current dependencies (for example `@pnpm/error` and `puppeteer`) now require Node.js 18+.
   - Why: CI started failing on Node.js 16 because required runtime features like `structuredClone` are not available.
+
+[Full changelog](https://github.com/nevware21/ts-build-tools/compare/0.1.4...0.1.5)
 
 # v0.1.4 Nov 18th, 2024
 
