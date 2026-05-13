@@ -736,7 +736,7 @@
     "node_modules/@rush-temp/coverage-tools": {
       "version": "0.0.0",
       "resolved": "file:projects/coverage-tools.tgz",
-      "integrity": "sha512-gNM/a/NnIty0UVchDMc5ZqglAAKx3tjlnwznuSL+8tJ3kaETsRTQSfhDw/5cbZf1+xdUhNf7Xzo2qGtYliO14g==",
+      "integrity": "sha512-Movx1e5Jb0nIMUPHdjRqvK+T0oChsKFIzBtD/cJlx0efTHpxyr6bcp4IEMDq28wPdsiq7wQIGAFgNn8n6pearA==",
       "dependencies": {
         "@microsoft/api-extractor": "^7.34.4",
         "@nevware21/tripwire": ">= 0.1.8 < 2.x",
@@ -824,7 +824,7 @@
     "node_modules/@rush-temp/ts-preproc": {
       "version": "0.0.0",
       "resolved": "file:projects/ts-preproc.tgz",
-      "integrity": "sha512-s62gpqUAbnIo+S6jJUpNGC100UgpT+joN7sWySfh7WBgsQjwzGd7sIkbDgKWOTML2KfHpgMWyG5vGcNz/7+dYw==",
+      "integrity": "sha512-EM3Xv5N5b4qA5wcNq6yx1ugD5GWzQCs+w5hVdNS44wYoZbRk91azqY1XPkc8DlXth6FCLzjWu6nqfvgrv9QRew==",
       "dependencies": {
         "@microsoft/api-extractor": "^7.34.4",
         "@nevware21/tripwire": ">= 0.1.8 < 2.x",
@@ -4593,9 +4593,9 @@
       }
     },
     "node_modules/yaml": {
-      "version": "2.8.4",
-      "resolved": "https://registry.npmjs.org/yaml/-/yaml-2.8.4.tgz",
-      "integrity": "sha512-ml/JPOj9fOQK8RNnWojA67GbZ0ApXAUlN2UQclwv2eVgTgn7O9gg9o7paZWKMp4g0H3nTLtS9LVzhkpOFIKzog==",
+      "version": "2.9.0",
+      "resolved": "https://registry.npmjs.org/yaml/-/yaml-2.9.0.tgz",
+      "integrity": "sha512-2AvhNX3mb8zd6Zy7INTtSpl1F15HW6Wnqj0srWlkKLcpYl/gMIMJiyuGq2KeI2YFxUPjdlB+3Lc10seMLtL4cA==",
       "bin": {
         "yaml": "bin.mjs"
       },
@@ -5117,7 +5117,7 @@
     },
     "@rush-temp/coverage-tools": {
       "version": "file:projects\\coverage-tools.tgz",
-      "integrity": "sha512-gNM/a/NnIty0UVchDMc5ZqglAAKx3tjlnwznuSL+8tJ3kaETsRTQSfhDw/5cbZf1+xdUhNf7Xzo2qGtYliO14g==",
+      "integrity": "sha512-Movx1e5Jb0nIMUPHdjRqvK+T0oChsKFIzBtD/cJlx0efTHpxyr6bcp4IEMDq28wPdsiq7wQIGAFgNn8n6pearA==",
       "requires": {
         "@microsoft/api-extractor": "^7.34.4",
         "@nevware21/tripwire": ">= 0.1.8 < 2.x",
@@ -5191,7 +5191,7 @@
     },
     "@rush-temp/ts-preproc": {
       "version": "file:projects\\ts-preproc.tgz",
-      "integrity": "sha512-s62gpqUAbnIo+S6jJUpNGC100UgpT+joN7sWySfh7WBgsQjwzGd7sIkbDgKWOTML2KfHpgMWyG5vGcNz/7+dYw==",
+      "integrity": "sha512-EM3Xv5N5b4qA5wcNq6yx1ugD5GWzQCs+w5hVdNS44wYoZbRk91azqY1XPkc8DlXth6FCLzjWu6nqfvgrv9QRew==",
       "requires": {
         "@microsoft/api-extractor": "^7.34.4",
         "@nevware21/tripwire": ">= 0.1.8 < 2.x",
@@ -7919,9 +7919,9 @@
       "integrity": "sha512-0pfFzegeDWJHJIAmTLRP2DwHjdF5s7jo9tuztdQxAhINCdvS+3nGINqPd00AphqJR/0LhANUS6/+7SCb98YOfA=="
     },
     "yaml": {
-      "version": "2.8.4",
-      "resolved": "https://registry.npmjs.org/yaml/-/yaml-2.8.4.tgz",
-      "integrity": "sha512-ml/JPOj9fOQK8RNnWojA67GbZ0ApXAUlN2UQclwv2eVgTgn7O9gg9o7paZWKMp4g0H3nTLtS9LVzhkpOFIKzog=="
+      "version": "2.9.0",
+      "resolved": "https://registry.npmjs.org/yaml/-/yaml-2.9.0.tgz",
+      "integrity": "sha512-2AvhNX3mb8zd6Zy7INTtSpl1F15HW6Wnqj0srWlkKLcpYl/gMIMJiyuGq2KeI2YFxUPjdlB+3Lc10seMLtL4cA=="
     },
     "yargs": {
       "version": "16.2.0",
