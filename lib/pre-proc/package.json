@@ -1,7 +1,7 @@
 {
     "name": "@nevware21/ts-preproc",
     "description": "TypeScript pre-processing tools.",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "homepage": "https://github.com/nevware21/ts-build-tools",
     "license": "MIT",
     "author": {
@@ -80,8 +80,8 @@
     "devDependencies": {
         "@microsoft/api-extractor": "^7.34.4",
         "@nevware21/tripwire": ">= 0.1.8 < 2.x",
-        "@nevware21/coverage-tools": "0.1.4",
-        "@nevware21/publish-npm": "0.1.4",
+        "@nevware21/coverage-tools": "0.1.5",
+        "@nevware21/publish-npm": "0.1.5",
         "@rollup/plugin-commonjs": "^29.0.0",
         "@rollup/plugin-json": "^6.0.0",
         "@rollup/plugin-node-resolve": "^16.0.0",
